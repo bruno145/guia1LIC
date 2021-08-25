@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: #DA2C38;
+}
+footer{
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+.desc{
+    padding: 10px;
+    background-image:url(../img/banner.jfif);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+.desc p{
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.733);
+    margin: auto;
+}
+#char{
+    width: 850px;
+    margin: auto;
+}
+.per{
+    margin: auto;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    transition: 0.5s;
+    width: auto;
+}
+.img{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.text{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.text h3{
+    color: #DA2C38;
+}
+.img img{
+    height: 250px;
+    width: auto;
+}
+#char h2{
+    color: #DA2C38;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+#creadores{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-color: #DA2C38;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.crea{
+    position: relative;
+    margin: auto;
+    background-color: blue;
+    width: 250px;
+    height: 400px;
+}
+
+.foto1, .foto2, .foto3{
+    background: white;
+    width: 250px;
+    height: 300px;
+}
+/*Estableciendo fondos de creadores*/
+.foto1{
+    background-image: url(../img/roger.jfif);
+    background-size: cover;
+}
+.foto2{
+    background-image: url(../img/marilyn.jfif);
+    background-size: cover;
+}
+.foto3{
+    background-image: url(../img/rick.jfif);
+    background-size: cover;
+}
+.nombre{
+    width: 250px;
+    height: 100px;
+    background: #333;
+}
+.nombre h3{
+    padding: 35px;
+}
+#creatxt{
+    text-align: center;
+    background-color: #DA2C38;
+    padding: 30px;
+    color: white;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+}

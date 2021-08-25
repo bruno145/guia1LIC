@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    border-bottom: 1px solid #0B4F6C;
+    color: #0B4F6C;
+}
+header h1{
+    position: relative;
+}
+h1{
+    margin: auto;
+}
+
+#banderas{
+    width: 800px;
+    height: auto;
+    margin: auto;  
+}
+
+.band{
+    width: 95%;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    border: 1px solid #0B4F6C;
+}
+
+.img1, .img2, .img3, .img4, .img5{
+    width: 50%;
+    height: 100%;
+}
+
+.btn{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 40px;
+    background-color: transparent;
+    border: 1px solid #0B4F6C;
+    color: #0B4F6C;
+    position: relative;
+    top: 40%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+a:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+    background-color: #0B4F6C;
+    color: white;
+}
+
+.img1{
+    background-image: url(../img/esa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-image: url(../img/gua.png);
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url(../img/hon.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4{
+    background-image: url(../img/nica.gif);
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    background-image: url(../img/crc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    padding: 35px;
+    border-top: 1px solid #0B4F6C;
+    text-align: center;
+    color: #0B4F6C;
+    font-size: 20px;
+}
