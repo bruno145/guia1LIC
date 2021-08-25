@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(238, 235, 235);
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+#datos{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(238, 235, 235);
+    display: flex;
+}
+ #datos div{
+     margin-top: 10px;
+     width: 50%;
+     height: 100%;
+     font-size: 24px;
+ }
+
+ #datos img{
+     width: auto;
+     height: 100%;
+     border-radius: 100%;
+ }
+ #bio{
+     width: 80%;
+     height: auto;
+     padding: 20px;
+     font-size: 24px;
+     text-align: justify;
+     margin: auto;
+     background-color: white;
+     margin-bottom: 30px;
+ }
+ footer{
+     background-color: #333;
+     color: white;
+     padding: 20px;
+     text-align: center;
+ }
